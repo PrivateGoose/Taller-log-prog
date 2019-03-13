@@ -1,0 +1,8 @@
+a=int(input("Digite su número: "))
+b=int(a/1000)
+c=a-(b*1000)
+d=int(c/100)
+e=c-(d*100)
+f=int(e/10)
+g=e-(f*10)
+print("El valor invertifo de {} es: {}{}{}{}".format(a,g,f,d,b))

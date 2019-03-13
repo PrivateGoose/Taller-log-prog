@@ -1,0 +1,5 @@
+dec=int(input("Digite el número a convertir: "))
+print("El valor decimal de {} es: ".format(dec))
+print(bin(dec),"en binario.")
+print(oct(dec),"en octal.")
+print(hex(dec),"en hexadecimal.")

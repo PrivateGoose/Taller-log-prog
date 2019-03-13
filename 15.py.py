@@ -1,0 +1,5 @@
+x0=int(input("Digite la velocidad inicial: "))
+t=int(input("Digite el tiempo: "))
+a=int(input("Digite la aceleración: "))
+x=x0+t+(0.5)*(a*t)*(a*t)
+print("La distancia recorrida de su objeto es de: {}".format(x))

@@ -1,0 +1,12 @@
+n1=float(input("Digite el primer número: "))
+n2=float(input("Digite el segundo número: "))
+n3=float(input("Digite el tercer número: "))
+n4=float(input("Digite el cuarto número: "))
+n5=float(input("Digite el quinto número: "))
+n6=float(input("Digite el sexto número: "))
+n7=float(input("Digite el séptimo número: "))
+n8=float(input("Digite el octavo número: "))
+n9=float(input("Digite el noveno número: "))
+n10=float(input("Digite el décimo número: "))
+prom=(n1+n2+n3+n4+n5+n6+n7+n8+n9+n10)/10
+print("El promedio de los números dados es: {}.".format(prom))
